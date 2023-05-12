@@ -10,8 +10,8 @@
 ## Files & Links:
 - Jupyter Notebook: [web_scraping_nlp.ipynb](web_scraping_nlp.ipynb)
 - Scraped Websites:  
-    - <a href="https://www.mckinsey.com/industries/healthcare/our-insights/driving-growth-through-consumer-centricity-in-healthcare" target="_blank"/>
-    - <a href="https://www.mckinsey.com/industries/healthcare/our-insights/women-in-healthcare-and-life-sciences-the-ongoing-stress-of-covid-19" target="_blank"/>
+    - https://www.mckinsey.com/industries/healthcare/our-insights/driving-growth-through-consumer-centricity-in-healthcare 
+    - https://www.mckinsey.com/industries/healthcare/our-insights/women-in-healthcare-and-life-sciences-the-ongoing-stress-of-covid-19 
 - Scraped Text:  
     - [scraped-consumer-centricity-in-healthcare.html](scraped-consumer-centricity-in-healthcare.html) 
     - [scraped-women-in-healthcare.html](scraped-women-in-healthcare.html) 
@@ -41,7 +41,7 @@ Documentation:
     1. Load the text to the model
     2. Calculate a polarity score and give it a label of positive, negative, or neutral
     3. Print the score and label to the screen
-3. Create Summarization Functions
+3. Create Summarization Functions   
 Summarization breaks longer text down into key sentences and information. Through lemmatization, words are grouped into their lemma or dictionary form, which are then tallied. Each sentence is scored based on presence of the most frequent lemmas or key concepts.
     1. we_care_about(token): remove whitepace, stopwords, and punctuation 
     2. plot_histogram(scores, label): plot a histogram of sentence score frequency 
@@ -64,7 +64,7 @@ Summarization breaks longer text down into key sentences and information. Throug
 ## NLP Results  
 
 ### Consumer Centricity in Healthcare
-- Full article: <a href="https://www.mckinsey.com/industries/healthcare/our-insights/driving-growth-through-consumer-centricity-in-healthcare" target="_blank"/>
+- Full article: https://www.mckinsey.com/industries/healthcare/our-insights/driving-growth-through-consumer-centricity-in-healthcare 
 - Scraped text: [scraped-consumer-centricity-in-healthcare.html](https://raw.githubusercontent.com/mandi1120/web_scraping_nlp/main/scraped-consumer-centricity-in-healthcare.html)
 - Summarized text: [summary-consumer-centricity-in-healthcare.txt](https://raw.githubusercontent.com/mandi1120/web_scraping_nlp/main/summary-consumer-centricity-in-healthcare.txt)
 
@@ -90,7 +90,7 @@ Summarization breaks longer text down into key sentences and information. Throug
 
 
 ### Women in Healthcare
-- Full article: <a href="https://www.mckinsey.com/industries/healthcare/our-insights/women-in-healthcare-and-life-sciences-the-ongoing-stress-of-covid-19" target="_blank"/>
+- Full article: https://www.mckinsey.com/industries/healthcare/our-insights/women-in-healthcare-and-life-sciences-the-ongoing-stress-of-covid-19  
 - Scraped text: [scraped-women-in-healthcare.html](https://raw.githubusercontent.com/mandi1120/web_scraping_nlp/main/scraped-women-in-healthcare.html) 
 - Summarized text: [summary-women-in-healthcare.txt](https://raw.githubusercontent.com/mandi1120/web_scraping_nlp/main/summary-women-in-healthcare.txt) 
 
