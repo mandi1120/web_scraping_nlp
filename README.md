@@ -42,7 +42,7 @@ Documentation:
     2. Calculate a polarity score and give it a label of positive, negative, or neutral
     3. Print the score and label to the screen
 3. Create Summarization Functions   
-- Summarization breaks longer text down into key sentences and information. Through lemmatization, words are grouped into their lemma or dictionary form, which are then tallied. Each sentence is scored based on presence of the most frequent lemmas or key concepts.
+<em>Summarization breaks longer text down into key sentences and information. Through lemmatization, words are grouped into their lemma or dictionary form, which are then tallied. Each sentence is scored based on presence of the most frequent lemmas or key concepts.</em>
     1. we_care_about(token): remove whitespace, stopwords, and punctuation 
     2. plot_histogram(scores, label): plot a histogram of sentence score frequency 
     3. create_wordcloud(content, label): create a word cloud 
